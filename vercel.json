@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://apex-media-studio.cgpt87227.chatgpt.site/:path*"
+    }
+  ]
+}
