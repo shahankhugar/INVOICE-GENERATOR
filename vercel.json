@@ -9,6 +9,10 @@
     { "src": "/admin/quotation/storage.js", "dest": "/admin/quotation/storage.js" },
     { "src": "/admin/quotation/brand.css", "dest": "/admin/quotation/brand.css" },
     { "src": "/admin/quotation/styles.css", "dest": "/admin/quotation/styles.css" },
+    { "src": "/admin-quotation-section.js", "dest": "/admin-quotation-section.js" },
+    { "src": "/admin-quotation-section.css", "dest": "/admin-quotation-section.css" },
+    { "src": "/admin", "dest": "/api/admin-shell?path=admin" },
+    { "src": "/admin/(.*)", "dest": "/api/admin-shell?path=admin/$1" },
     { "src": "/(.*)", "dest": "https://apex-media-studio.cgpt87227.chatgpt.site/$1" }
   ]
 }

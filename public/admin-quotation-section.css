@@ -1,0 +1,19 @@
+#apex-quotation-section {
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  margin: 0 0 28px; padding: 26px 28px; border: 1px solid rgba(255,255,255,.12);
+  border-radius: 22px; background: linear-gradient(125deg,rgba(255,122,50,.13),rgba(244,63,143,.1) 48%,rgba(124,77,255,.13));
+  color: #f8f5ef; box-shadow: 0 22px 60px rgba(0,0,0,.2);
+}
+#apex-quotation-section p { margin: 0 0 8px; color: #ff8b3d; font-size: .74rem; font-weight: 800; letter-spacing: .14em; }
+#apex-quotation-section h2 { margin: 0 0 7px; color: inherit; font-size: clamp(1.45rem,3vw,2.1rem); letter-spacing: -.045em; }
+#apex-quotation-section span { display: block; max-width: 640px; color: rgba(248,245,239,.68); line-height: 1.5; }
+#apex-quotation-section a {
+  flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; min-height: 48px;
+  padding: 0 20px; border-radius: 12px; background: linear-gradient(120deg,#ff7a32,#f43f8f,#7c4dff);
+  color: #fff; font-weight: 800; text-decoration: none;
+}
+#apex-quotation-section a:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+@media (max-width: 720px) {
+  #apex-quotation-section { align-items: stretch; flex-direction: column; padding: 22px; }
+  #apex-quotation-section a { width: 100%; box-sizing: border-box; }
+}
