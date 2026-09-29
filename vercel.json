@@ -1,9 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "https://apex-media-studio.cgpt87227.chatgpt.site/$1"
-    }
+    { "src": "/admin/quotation", "dest": "/admin/quotation/index.html" },
+    { "src": "/admin/quotation/", "dest": "/admin/quotation/index.html" },
+    { "src": "/admin/quotation/app.js", "dest": "/admin/quotation/app.js" },
+    { "src": "/admin/quotation/gate.js", "dest": "/admin/quotation/gate.js" },
+    { "src": "/admin/quotation/pricing.js", "dest": "/admin/quotation/pricing.js" },
+    { "src": "/admin/quotation/storage.js", "dest": "/admin/quotation/storage.js" },
+    { "src": "/admin/quotation/brand.css", "dest": "/admin/quotation/brand.css" },
+    { "src": "/admin/quotation/styles.css", "dest": "/admin/quotation/styles.css" },
+    { "src": "/(.*)", "dest": "https://apex-media-studio.cgpt87227.chatgpt.site/$1" }
   ]
 }
