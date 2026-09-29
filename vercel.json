@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
-    { "src": "/quotation", "dest": "/quotation/index.html" },
-    { "src": "/quotation/", "dest": "/quotation/index.html" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "https://apex-media-studio.cgpt87227.chatgpt.site/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "https://apex-media-studio.cgpt87227.chatgpt.site/$1"
+    }
   ]
 }
